@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>gothemswishstatus</name>
+  <displayName><![CDATA[Gothem Swish Status]]></displayName>
+  <version><![CDATA[1.0.4]]></version>
+  <description><![CDATA[Applies matched Swish payments to thirty bees orders.]]></description>
+  <author><![CDATA[Gothem Innovations]]></author>
+</module>
