@@ -2,7 +2,7 @@
 <module>
   <name>gothemswishstatus</name>
   <displayName><![CDATA[Gothem Swish Status]]></displayName>
-  <version><![CDATA[1.0.4]]></version>
+  <version><![CDATA[1.0.5]]></version>
   <description><![CDATA[Applies matched Swish payments to thirty bees orders.]]></description>
   <author><![CDATA[Gothem Innovations]]></author>
 </module>

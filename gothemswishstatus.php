@@ -14,7 +14,7 @@ class GothemSwishStatus extends Module
     {
         $this->name = 'gothemswishstatus';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.4';
+        $this->version = '1.0.5';
         $this->author = 'Gothem Innovations';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -207,7 +207,7 @@ class GothemSwishStatus extends Module
                     'icon' => 'icon-cogs',
                 ),
                 'input' => array(
-                    array('type' => 'text', 'label' => $this->l('Callback key'), 'name' => self::CFG_CALLBACK_KEY, 'desc' => $this->l('Shared secret from smsqueue.php. If empty, SMS_QUEUE_KEY is accepted.')),
+                    array('type' => 'text', 'label' => $this->l('Callback key'), 'name' => self::CFG_CALLBACK_KEY, 'desc' => $this->l('Optional separate callback key. Leave empty to accept the SMS queue key configured in SMS Notification.')),
                     array('type' => 'text', 'label' => $this->l('Payment accepted status id'), 'name' => self::CFG_PAID_STATE),
                     array('type' => 'text', 'label' => $this->l('Delivered status id'), 'name' => self::CFG_DELIVERED_STATE),
                 ),
